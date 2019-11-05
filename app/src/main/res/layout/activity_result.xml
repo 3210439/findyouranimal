@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".resultActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999">
+
+        <TextView
+            android:id="@+id/txt_cutePig"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cutepig"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/cutepig"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_noeDeer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/noedeer"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/noru"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+
+        <TextView
+            android:id="@+id/txt_cat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cutecat"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/cat"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+
+        <TextView
+            android:id="@+id/txt_giraffe"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/giraffe"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/giraffe"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_shark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shark"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/shark"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_phoenix"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/phoenix"
+            android:gravity="start"
+            android:padding="16dp"
+            android:text="@string/phieonix"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/bt_to_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:onClick="clickMain"
+            android:text="메인화면으로"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/frameLayout"
+            app:layout_constraintVertical_bias="0.101" />
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
