@@ -123,7 +123,7 @@
         android:layout_marginBottom="8dp"
         android:background="@color/colorPrimary"
         android:onClick="t1_bt5Click"
-        android:text="하츠네미쿠"
+        android:text="혼자"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

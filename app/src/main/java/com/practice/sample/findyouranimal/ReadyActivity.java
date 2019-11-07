@@ -11,6 +11,8 @@ import android.widget.TextView;
 
 public class ReadyActivity extends AppCompatActivity {
 
+    private boolean clicked;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,16 +25,12 @@ public class ReadyActivity extends AppCompatActivity {
 
 
     public void StartClick(View v)
-    {/*
-        try {
-            Thread.sleep(100);
-        }
-        catch(Exception e)
-        {
-        }*/
+    {
+        if(clicked == false) {
+            clicked = true;
         Intent intent= new Intent(this,test1Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish( );
-    }
+    }}
 }

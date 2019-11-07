@@ -24,8 +24,9 @@ public class MainActivity extends AppCompatActivity {
         TextView title = (TextView)findViewById(R.id.txt_Title);
         Typeface cute = Typeface.createFromAsset(getAssets(),"cute.ttf");
         title.setTypeface(cute);
-        // Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713
-        MobileAds.initialize(this, "ca-app-pub-1939547718918721~5094320877");
+        // Sample AdMob app ID: "ca-app-pub-3940256099942544~3347511713"
+        // real AdMob app ID:"ca-app-pub-1939547718918721~5094320877"
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
 
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();

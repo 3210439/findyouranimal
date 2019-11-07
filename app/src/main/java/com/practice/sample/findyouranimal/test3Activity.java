@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.WindowManager;
 
 public class test3Activity extends AppCompatActivity {
+    boolean clicked;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,42 +18,59 @@ public class test3Activity extends AppCompatActivity {
 
     public void t3_bt1Click(View v)
     {
-        Intent intent = new Intent(this,test4Activity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=4;
-        startActivity(intent);
-        finish();
+        if(clicked == false) {
+            clicked = true;
+            Intent intent = new Intent(this, test4Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            MainActivity.Score += 4;
+            startActivity(intent);
+            finish();
+        }
     }
     public void t3_bt2Click(View v)
     {
-        Intent intent = new Intent(this,test4Activity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=3;
-        startActivity(intent);
-        finish();
+        if(clicked == false) {
+            clicked = true;
+            Intent intent = new Intent(this, test4Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            MainActivity.Score += 3;
+            startActivity(intent);
+            finish();
+        }
     }
     public void t3_bt3Click(View v)
     {
-        Intent intent = new Intent(this,test4Activity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=1;
-        startActivity(intent);
-        finish();
+        if(clicked == false) {
+            clicked = true;
+            Intent intent = new Intent(this, test4Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            MainActivity.Score += 1;
+            startActivity(intent);
+            finish();
+        }
     }
     public void t3_bt4Click(View v)
     {
-        Intent intent = new Intent(this,test4Activity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=2;
-        startActivity(intent);
-        finish();
+
+        if(clicked == false) {
+            clicked = true;
+            Intent intent = new Intent(this, test4Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            MainActivity.Score += 2;
+            startActivity(intent);
+            finish();
+        }
     }
     public void t3_bt5Click(View v)
     {
-        Intent intent = new Intent(this,test4Activity.class);
-        intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=5;
-        startActivity(intent);
-        finish();
+
+        if(clicked == false) {
+            clicked = true;
+            Intent intent = new Intent(this, test4Activity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
+            MainActivity.Score += 5;
+            startActivity(intent);
+            finish();
+        }
     }
 }
