@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.practice.sample.findyouranimal">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_round"
@@ -9,18 +11,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".result2Activity"
+            android:screenOrientation="portrait"/>
         <!-- Sample AdMob App ID: "ca-app-pub-3940256099942544~3347511713" -->
         <!-- real AdMob App ID: "ca-app-pub-1939547718918721~5094320877" -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
-        <activity android:name=".resultActivity"></activity>
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+
+        <activity android:name=".resultActivity" />
         <activity android:name=".checkActivity" />
         <activity
             android:name=".test9Activity"
-            android:screenOrientation="portrait"
-            />
-
+            android:screenOrientation="portrait" />
         <activity
             android:name=".test8Activity"
             android:screenOrientation="portrait" />

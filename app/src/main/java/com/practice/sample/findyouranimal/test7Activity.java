@@ -22,7 +22,7 @@ public class test7Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test8Activity.class);
-        MainActivity.Score +=5;
+        MainActivity.Score_viscera +=5;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();
@@ -32,7 +32,7 @@ public class test7Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test8Activity.class);
-        MainActivity.Score +=3;
+        MainActivity.Score_viscera +=4;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();
@@ -42,7 +42,7 @@ public class test7Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test8Activity.class);
-        MainActivity.Score +=4;
+        MainActivity.Score_viscera +=3;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();
@@ -52,7 +52,7 @@ public class test7Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test8Activity.class);
-        MainActivity.Score +=2;
+        MainActivity.Score_viscera +=2;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();
@@ -62,7 +62,7 @@ public class test7Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test8Activity.class);
-        MainActivity.Score +=1;
+        MainActivity.Score_viscera +=1;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();

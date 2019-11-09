@@ -24,7 +24,7 @@ public class test5Activity extends AppCompatActivity {
             clicked = true;
         Intent intent = new Intent(this,test6Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=2;
+        MainActivity.Score_heart +=1;
         startActivity(intent);
         finish();
         }
@@ -35,7 +35,7 @@ public class test5Activity extends AppCompatActivity {
             clicked = true;
         Intent intent = new Intent(this,test6Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=1;
+        MainActivity.Score_heart +=3;
         startActivity(intent);
         finish();
     }}
@@ -45,7 +45,7 @@ public class test5Activity extends AppCompatActivity {
             clicked = true;
         Intent intent = new Intent(this,test6Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=5;
+        MainActivity.Score_heart +=4;
         startActivity(intent);
         finish();
     }}
@@ -55,7 +55,7 @@ public class test5Activity extends AppCompatActivity {
             clicked = true;
         Intent intent = new Intent(this,test6Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=4;
+        MainActivity.Score_heart +=2;
         startActivity(intent);
         finish();
     }}
@@ -65,7 +65,7 @@ public class test5Activity extends AppCompatActivity {
             clicked = true;
         Intent intent = new Intent(this,test6Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=3;
+        MainActivity.Score_heart +=5;
         startActivity(intent);
         finish();
     }}

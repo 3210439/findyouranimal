@@ -38,27 +38,27 @@ public class resultActivity extends AppCompatActivity {
         cat.setTypeface(cute);
 
 
-        if(MainActivity.Score<=13)
+        if(MainActivity.Score<=20)
         {
             CP.setVisibility(View.VISIBLE);
         }
-        else if(MainActivity.Score>13 && MainActivity.Score<=17)
+        else if(MainActivity.Score>20 && MainActivity.Score<=24)
         {
             noruu.setVisibility(View.VISIBLE);
         }
-        else if(MainActivity.Score>17 && MainActivity.Score<=22)
+        else if(MainActivity.Score>24 && MainActivity.Score<=28)
         {
             cat.setVisibility(View.VISIBLE);
         }
-        else if(MainActivity.Score>22 && MainActivity.Score<=30)
+        else if(MainActivity.Score>28 && MainActivity.Score<=32)
         {
             giraffe.setVisibility(View.VISIBLE);
         }
-        else if(MainActivity.Score>30 && MainActivity.Score<=39)
+        else if(MainActivity.Score>32 && MainActivity.Score<=36)
         {
             shark.setVisibility(View.VISIBLE);
         }
-        else if(MainActivity.Score>39 )
+        else if(MainActivity.Score>36 )
         {
             phoenix.setVisibility(View.VISIBLE);
         }

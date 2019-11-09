@@ -16,6 +16,8 @@ import com.google.android.gms.ads.AdView;
 public class MainActivity extends AppCompatActivity {
     private AdView mAdView;
     static int Score=0;
+    static int Score_viscera=0;
+    static int Score_heart=0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void ClickIcon(View v)
     {
-        Toast.makeText(getApplicationContext(),"this app icon from \nhttps://www.iconfinder.com/Icojam",Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),"this app icon from \nhttps://www.iconfinder.com/Icojam \nhttps://www.flaticon.com/<?=_('authors/')?>freepik",Toast.LENGTH_LONG).show();
     }
 
     @Override

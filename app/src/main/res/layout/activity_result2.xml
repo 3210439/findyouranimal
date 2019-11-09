@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5A2CC"
+    android:orientation="vertical"
+    tools:context=".result2Activity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="0.25">
+
+
+        <ImageView
+            android:id="@+id/monkey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/monkey" />
+
+        <ImageView
+            android:id="@+id/lion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/lion" />
+
+        <ImageView
+            android:id="@+id/hunter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/hunter" />
+
+        <ImageView
+            android:id="@+id/elephant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/elephant" />
+
+        <ImageView
+            android:id="@+id/eagle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/eagle" />
+
+        <ImageView
+            android:id="@+id/cow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/cow" />
+
+        <ImageView
+            android:id="@+id/black_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/black_cat" />
+
+        <ImageView
+            android:id="@+id/dog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dog" />
+
+        <ImageView
+            android:id="@+id/deer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/deer" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.75"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/txt_cat_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 고양이"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_deer_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 사슴"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_lion_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 사자"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_eagle_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 독수리"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_monkey_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 원숭이"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_dog_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 강아지"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_elephant_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 코끼리"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_cow_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 소"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/txt_hunter_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="난 부엉이"
+            android:visibility="invisible" />
+
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_to_main_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="메인화면으로 돌아가기"
+        android:textSize="18sp" />
+</LinearLayout>

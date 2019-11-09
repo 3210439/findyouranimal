@@ -24,7 +24,7 @@ public class test6Activity extends AppCompatActivity {
             clicked = true;
         Intent intent = new Intent(this,test7Activity.class);
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-        MainActivity.Score +=2;
+        MainActivity.Score +=5;
         startActivity(intent);
         finish();
     }}
@@ -43,7 +43,7 @@ public class test6Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test7Activity.class);
-        MainActivity.Score +=5;
+        MainActivity.Score +=3;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();
@@ -53,7 +53,7 @@ public class test6Activity extends AppCompatActivity {
         if(clicked == false) {
             clicked = true;
         Intent intent = new Intent(this,test7Activity.class);
-        MainActivity.Score +=3;
+        MainActivity.Score +=2;
         intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
         startActivity(intent);
         finish();

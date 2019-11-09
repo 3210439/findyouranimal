@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
+// 장형 문제
 public class test2Activity extends AppCompatActivity {
     boolean clicked;
 
@@ -25,7 +26,7 @@ public class test2Activity extends AppCompatActivity {
             clicked = true;
             Intent intent = new Intent(this, test3Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            MainActivity.Score += 5;
+            MainActivity.Score_viscera += 5;
             startActivity(intent);
             finish();
         }
@@ -36,7 +37,7 @@ public class test2Activity extends AppCompatActivity {
             clicked = true;
             Intent intent = new Intent(this, test3Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            MainActivity.Score += 4;
+            MainActivity.Score_viscera += 4;
             startActivity(intent);
             finish();
         }
@@ -47,7 +48,7 @@ public class test2Activity extends AppCompatActivity {
             clicked = true;
             Intent intent = new Intent(this, test3Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            MainActivity.Score += 3;
+            MainActivity.Score_viscera += 3;
             startActivity(intent);
             finish();
         }
@@ -58,7 +59,7 @@ public class test2Activity extends AppCompatActivity {
             clicked = true;
             Intent intent = new Intent(this, test3Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            MainActivity.Score += 1;
+            MainActivity.Score_viscera += 2;
             startActivity(intent);
             finish();
         }
@@ -70,7 +71,7 @@ public class test2Activity extends AppCompatActivity {
             clicked = true;
             Intent intent = new Intent(this, test3Activity.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NO_HISTORY);
-            MainActivity.Score += 2;
+            MainActivity.Score_viscera += 1;
             startActivity(intent);
             finish();
         }

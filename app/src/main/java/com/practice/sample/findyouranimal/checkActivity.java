@@ -49,7 +49,7 @@ public class checkActivity extends AppCompatActivity {
     {
         if(clicked == false) {
             clicked = true;
-        Intent intent = new Intent(this,resultActivity.class);
+        Intent intent = new Intent(this,result2Activity.class);
         startActivity(intent);
 
         if (mInterstitialAd.isLoaded()) {
